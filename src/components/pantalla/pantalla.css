@@ -1,0 +1,16 @@
+.calculadora__pantalla {
+    height: 75px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 11px 30px 11px 11px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    color: white;
+    background-color: #243C58;
+    box-shadow: -1px 4px 1px 1px white;
+    font-size: 38px;
+    overflow: hidden;
+}

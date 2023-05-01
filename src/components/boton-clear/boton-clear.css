@@ -1,0 +1,27 @@
+.calculadora__clear {
+    height: 80px;
+    font-size: 38px;
+    margin-top: 8px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #484660;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    box-shadow: -1px 4px 1px 1px white;
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.calculadora__clear:active {
+    transform: translateY(4px);
+    box-shadow: none;
+    filter: brightness(0.8);
+}
+@media screen and (max-width: 430px){
+    .calculadora__clear{
+        font-size: 28px;
+    }
+}
